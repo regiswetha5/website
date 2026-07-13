@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thermometers - Jas Generic Pharmacy</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <style>
+    body { background: #f8f9fa; font-family: Arial, sans-serif; }
+    .navbar { background: #0d6efd; }
+    .navbar-brand { font-size: 30px; font-weight: bold; color: white; text-decoration: none; }
+    .section-title { font-size: 35px; font-weight: bold; text-align: center; margin: 40px 0; color: #dc3545; }
+    .card img { height: 220px; object-fit: cover; }
+  </style>
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">⬅ Back to Home</a>
+    </div>
+  </nav>
+
+  <div class="container mt-5 mb-5">
+    <h2 class="section-title">Digital Thermometers</h2>
+    <div class="row g-4 justify-content-center">
+
+      <div class="col-md-4">
+        <div class="card h-100">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPGtrXvIYKEPF_e1ojS9OX5l4LOZEyA4PUfm0rHSaS91IN6ABgh3Xt0XU&s" alt="Digital Thermometer">
+          <div class="card-body text-center">
+            <h5>Digital Oral Thermometer</h5>
+            <p class="text-muted">High accuracy fever check</p>
+            <button class="btn btn-danger w-100" onclick="openOrderPopup('Digital Oral Thermometer')">Add</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card h-100">
+          <img src="data:image/jpeg;base64,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" alt="Infrared Thermometer">
+          <div class="card-body text-center">
+            <h5>Infrared Forehead Thermometer</h5>
+            <p class="text-muted">Non-contact instant laser scan</p>
+            <button class="btn btn-danger w-100" onclick="openOrderPopup('Infrared Forehead Thermometer')">Add</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card h-100">
+          <img src="data:image/jpeg;base64,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" alt="Flexible Thermometer">
+          <div class="card-body text-center">
+            <h5>Flexible Tip Baby Thermometer</h5>
+            <p class="text-muted">Soft tip safe for kids</p>
+            <button class="btn btn-danger w-100" onclick="openOrderPopup('Flexible Tip Baby Thermometer')">Add</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="modal fade" id="orderModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header bg-danger text-white">
+          <h5 class="modal-title">Confirm Your Order</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form id="quickOrderForm" onsubmit="submitOrder(event)">
+            <div class="mb-3"><label class="form-label">Selected Item</label><input type="text" id="selectedProduct" class="form-control bg-light" readonly></div>
+            <div class="mb-3"><label class="form-label">Your Name</label><input type="text" id="custName" class="form-control" required></div>
+            <div class="mb-3"><label class="form-label">Phone Number</label><input type="tel" id="custPhone" class="form-control" pattern="[0-9]{10}" required></div>
+            <div class="mb-3"><label class="form-label">Delivery Address</label><textarea id="custAddress" class="form-control" rows="3" required></textarea></div>
+            <button type="submit" class="btn btn-danger w-100 btn-lg mt-2">Place Order (COD)</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    let currentModal;
+    function openOrderPopup(productName) {
+      document.getElementById('selectedProduct').value = productName;
+      currentModal = new bootstrap.Modal(document.getElementById('orderModal'));
+      currentModal.show();
+    }
+    function submitOrder(event) {
+      event.preventDefault();
+      let prodName = document.getElementById('selectedProduct').value;
+      let name = document.getElementById('custName').value;
+      let phone = document.getElementById('custPhone').value;
+      alert(`🎉 Order Confirmed, ${name}!\n\nYour order for "${prodName}" has been successfully placed.\nWe will call you on ${phone} soon!`);
+      currentModal.hide();
+      document.getElementById('quickOrderForm').reset();
+    }
+  </script>
+</body>
+</html>
